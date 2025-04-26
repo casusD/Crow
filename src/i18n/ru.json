@@ -1,0 +1,41 @@
+{
+	"login": {
+		"buttonText": "Войти",
+		"password": "Пароль",
+		"emailForLogin": "Телефон, имя пользователя или эл. почта",
+		"forgotPassword": "Забыли пароль?",
+		"dontHaveAccount": "У вас еще нет аккаунта?",
+		"register": "Зарегистрироваться"
+	},
+	"register": {
+		"title": "Регистрация",
+		"fullName": "Имя и фамилия",
+		"username": "Имя пользователя",
+		"email": "Эл. почта",
+		"password": "Пароль",
+		"buttonText": "Зарегистрироваться",
+		"haveAccount": "Уже есть аккаунт?",
+		"login": "Войти"
+	},
+	"forgotPassword": {
+		"title": "Забыли пароль?",
+		"subtitle": "Укажите эл. почту, и мы вышлем вам код для сброса пароля",
+		"buttonText": "Отправить",
+		"email": "Эл. почта",
+		"rememberPassword": "Вспомнили пароль?",
+		"login": "Войти"
+	},
+	"checkUserError": {
+		"emailError": "Пользователь с такой эл. почтой не найден",
+		"passwordError": "Неверный пароль"
+	},
+	"sidebar": {
+		"main": "Главная",
+		"search": "Поиск",
+		"message": "Сообщения",
+		"notifications": "Уведомления"
+	},
+	"tape": {
+		"btnText": "Создать пост"
+	}
+}

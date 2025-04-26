@@ -1,0 +1,23 @@
+// src/styles/themes/themes.scss
+@use './light' as light;
+@use './dark' as dark;
+
+.light-theme {
+	--background-color: #{light.$background-color};
+	--text-color: #{light.$text-color};
+	--main-color: #{light.$main-color};
+	--box-shadow-color: #{light.$box-shadow-color};
+	--btn-text-color: #{light.$btn-text-color};
+	--placeholder-color: #{light.$placeholder-color};
+	--error-color: #{light.$error-color};
+}
+
+.dark-theme {
+	--background-color: #{dark.$background-color};
+	--text-color: #{dark.$text-color};
+	--main-color: #{dark.$main-color};
+	--box-shadow-color: #{dark.$box-shadow-color};
+	--btn-text-color: #{dark.$btn-text-color};
+	--placeholder-color: #{dark.$placeholder-color};
+	--error-color: #{dark.$error-color};
+}

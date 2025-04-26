@@ -1,0 +1,39 @@
+.sidebar {
+	box-sizing: border-box;
+	height: 100vh;
+
+	padding: 1rem 0;
+
+	box-shadow: 0 0 5px 1px var(--box-shadow-color);
+	text-align: center;
+
+	img {
+		transform: scale(0.6);
+		margin-bottom: 1rem;
+	}
+
+	.nav {
+		display: flex;
+		flex-direction: column;
+		padding-left: 25%;
+
+		a {
+			text-decoration: none;
+			color: var(--text-color);
+
+			font-size: 20px;
+
+			display: flex;
+			margin-bottom: 1rem;
+
+			svg {
+				margin-right: 0.5rem;
+			}
+		}
+
+		svg {
+			width: 27px;
+			height: 27px;
+		}
+	}
+}

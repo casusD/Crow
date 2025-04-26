@@ -1,0 +1,23 @@
+.btn {
+	width: 90%;
+	height: 50px;
+
+	margin-top: 15px;
+	// margin-bottom: 0;
+
+	outline: none;
+	border: 1px solid var(--main-color);
+	border-radius: 8px;
+
+	background-color: var(--main-color);
+	color: var(--btn-text-color);
+	font-size: 20px;
+
+	cursor: pointer;
+
+	transition: all 0.2s ease;
+
+	&:active {
+		transform: scale(0.95);
+	}
+}

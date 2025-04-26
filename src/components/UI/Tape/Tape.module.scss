@@ -1,0 +1,102 @@
+.tape {
+	box-sizing: border-box;
+	border: 1px solid black;
+	height: 100vh;
+
+	.stories {
+		box-sizing: border-box;
+		box-shadow: 0 0 5px 1px var(--box-shadow-color);
+		border-radius: 8px;
+
+		margin: 0 auto;
+		margin-top: 2rem;
+		padding: 15px 25px;
+		width: 75%;
+
+		display: flex;
+		align-items: center;
+		gap: 12px;
+
+		overflow-x: auto;
+		scroll-padding: 0 15px;
+		scroll-snap-type: x mandatory;
+
+		&::-webkit-scrollbar {
+			display: none; // скрыть скроллбар
+		}
+
+		img,
+		.btnStories {
+			width: 60px;
+			height: 60px;
+			flex-shrink: 0;
+			scroll-snap-align: start;
+		}
+
+		.btnStories {
+			background-color: var(--main-color);
+			color: var(--btn-text-color);
+
+			font-size: 40px;
+
+			border: none;
+			border-radius: 50%;
+
+			display: flex;
+			align-items: center;
+			justify-content: center;
+
+			cursor: pointer;
+		}
+
+		.spacer {
+			width: 10px;
+			flex-shrink: 0;
+		}
+	}
+
+	.posts {
+		width: 75%;
+		box-shadow: 0 0 5px 1px var(--box-shadow-color);
+		border-radius: 8px;
+		margin: 0 auto;
+		margin-top: 2rem;
+
+		overflow-y: auto;
+		// scroll-padding: 0 15px;
+		scroll-snap-type: x mandatory;
+
+		.createPostsBtn {
+			position: relative;
+
+			width: 100%;
+			height: 50px;
+
+			font-size: 20px;
+
+			border: none;
+			border-radius: 8px;
+
+			color: var(--btn-text-color);
+			background-color: var(--main-color);
+
+			display: flex;
+			align-items: center;
+			justify-content: center;
+
+			gap: 6px;
+
+			cursor: pointer;
+
+			div {
+				position: absolute;
+
+				display: flex;
+				align-items: center;
+				gap: 10px;
+
+				right: 3%;
+			}
+		}
+	}
+}

@@ -1,0 +1,38 @@
+{
+	"login": {
+		"buttonText": "Login",
+		"password": "Password",
+		"emailForLogin": "Phone, username, or email address",
+		"forgotPassword": "Forgot your password?",
+		"dontHaveAccount": "Don't you have an account yet?",
+		"register": "Register"
+	},
+	"register": {
+		"title": "Register",
+		"fullName": "Name and surname",
+		"username": "Username",
+		"email": "Email",
+		"password": "Password",
+		"buttonText": "Sign in",
+		"haveAccount": "Do you already have an account?",
+		"login": "Log in"
+	},
+	"forgotPassword": {
+		"title": "Forgot your password?",
+		"subtitle": "Enter your email address and we will send you a password reset code.",
+		"buttonText": "Send",
+		"email": "Email",
+		"rememberPassword": "Did you remember your password?",
+		"login": "Log in"
+	},
+	"checkUserError": {
+		"emailError": "The user with this email was not found.",
+		"passwordError": "Invalid password"
+	},
+	"sidebar": {
+		"main": "Main",
+		"search": "Search",
+		"message": "Message",
+		"notifications": "Notifications"
+	}
+}
