@@ -37,5 +37,11 @@
 	},
 	"tape": {
 		"btnText": "Создать пост"
-	}
+	},
+	"profile": {
+		"publications": "публикации",
+		"subscribers": "подписчики",
+		"subscriptions": "подписки"
+	},
+	"chats": "Чаты"
 }

@@ -1,8 +1,10 @@
 import imageIcon from '@/assets/imageIcon.svg';
 import userImg from '@/assets/user.png';
 import videoIcon from '@/assets/videoIcon.svg';
+
 import { Plus } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
+import Posts from './Posts/Posts';
 import styles from './Tape.module.scss';
 
 const usersStories: string[] = [
@@ -32,7 +34,7 @@ function Tape() {
 					})}
 				</article>
 
-				<section className={styles.posts}>
+				<section className={styles.postsList}>
 					<button className={styles.createPostsBtn}>
 						<Plus />
 						{t('tape.btnText')}
@@ -42,6 +44,8 @@ function Tape() {
 							<img src={videoIcon} alt='videoIcon' />
 						</div>
 					</button>
+
+					<Posts />
 				</section>
 			</main>
 		</>

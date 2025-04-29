@@ -1,6 +1,5 @@
 .tape {
 	box-sizing: border-box;
-	border: 1px solid black;
 	height: 100vh;
 
 	.stories {
@@ -9,7 +8,7 @@
 		border-radius: 8px;
 
 		margin: 0 auto;
-		margin-top: 2rem;
+		margin-top: 1rem;
 		padding: 15px 25px;
 		width: 75%;
 
@@ -55,16 +54,11 @@
 		}
 	}
 
-	.posts {
+	.postsList {
 		width: 75%;
-		box-shadow: 0 0 5px 1px var(--box-shadow-color);
-		border-radius: 8px;
-		margin: 0 auto;
-		margin-top: 2rem;
 
-		overflow-y: auto;
-		// scroll-padding: 0 15px;
-		scroll-snap-type: x mandatory;
+		margin: 0 auto;
+		margin-top: 1rem;
 
 		.createPostsBtn {
 			position: relative;

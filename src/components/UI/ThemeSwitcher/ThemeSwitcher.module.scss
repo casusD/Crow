@@ -1,0 +1,33 @@
+.themeSwitcher {
+	display: flex;
+	justify-content: space-between;
+
+	width: 90%;
+	height: 50px;
+
+	box-shadow: 0 0 5px 1px var(--box-shadow-color);
+	border-radius: 8px;
+
+	margin-top: 1rem;
+	margin-bottom: 2rem;
+
+	div {
+		width: 50%;
+		// border-radius: inherit;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+
+		transition: background-color 0.3s linear;
+
+		cursor: pointer;
+	}
+
+	.darkMode {
+		border-radius: 8px 0 0 8px;
+	}
+
+	.lightMode {
+		border-radius: 0 8px 8px 0;
+	}
+}

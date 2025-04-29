@@ -28,6 +28,7 @@ function SignIn() {
 		const updateUsers = [...users, newUser];
 
 		localStorage.setItem('users', JSON.stringify(updateUsers));
+		localStorage.setItem('currentUser', JSON.stringify(newUser));
 
 		navigate('/home', { replace: true });
 	}

@@ -34,5 +34,14 @@
 		"search": "Search",
 		"message": "Message",
 		"notifications": "Notifications"
-	}
+	},
+	"tape": {
+		"btnText": "Create a post"
+	},
+	"profile": {
+		"publications": "publications",
+		"subscribers": "subscribers",
+		"subscriptions": "subscriptions"
+	},
+	"chats": "Chats"
 }

@@ -14,17 +14,24 @@ function Sidebar() {
 
 				<div className={styles.nav}>
 					<Link to={'/home'}>
-						<House /> <span>{t('sidebar.main')}</span>
+						<div className={styles.active}>
+							<House /> <span>{t('sidebar.main')}</span>
+						</div>
 					</Link>
 					<Link to={'/home'}>
-						<Search /> {t('sidebar.search')}
+						<div>
+							<Search /> {t('sidebar.search')}
+						</div>
 					</Link>
 					<Link to={'/home'}>
-						<MessageCircle /> {t('sidebar.message')}
+						<div>
+							<MessageCircle /> {t('sidebar.message')}
+						</div>
 					</Link>
 					<Link to={'/home'}>
-						{' '}
-						<Bell />
+						<div>
+							<Bell />
+						</div>
 						{t('sidebar.notifications')}
 					</Link>
 				</div>

@@ -1,0 +1,31 @@
+.profile {
+	box-shadow: 0 0 5px 1px var(--box-shadow-color);
+	border-radius: 8px;
+
+	height: 190px;
+	width: 90%;
+
+	text-align: center;
+
+	img {
+		margin-top: 1rem;
+		width: 60px;
+		height: 60px;
+	}
+
+	h2 {
+		font-weight: 500;
+		font-size: 18px;
+		// margin: 0;
+		margin: 10px 0;
+	}
+
+	.follows {
+		display: flex;
+		justify-content: space-evenly;
+
+		p {
+			margin: 0;
+		}
+	}
+}

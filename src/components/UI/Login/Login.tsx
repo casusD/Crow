@@ -33,6 +33,8 @@ function Login({ isAuthenticated }: ILogin) {
 			return;
 		}
 
+		localStorage.setItem('currentUser', JSON.stringify(user));
+
 		localStorage.setItem('isAuth', 'true');
 		isAuthenticated(true);
 		navigate('/home', { replace: true });
