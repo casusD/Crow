@@ -10,4 +10,11 @@ export default defineConfig({
 			'@': path.resolve(__dirname, 'src'), // 🔥 alias @ → /src
 		},
 	},
+	css: {
+		preprocessorOptions: {
+			scss: {
+				additionalData: `@use "@/styles/adaptation" as *;`,
+			},
+		},
+	},
 });

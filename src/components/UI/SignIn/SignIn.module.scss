@@ -65,3 +65,79 @@
 		}
 	}
 }
+
+.register {
+	img {
+		@media (max-width: $desktop) {
+			margin-top: 3%;
+			margin-bottom: 1%;
+		}
+		@media (max-width: $tablet) {
+			// transform: scale(0.7);
+			margin-top: 2%;
+			margin-bottom: 1%;
+		}
+		@media (max-width: $mobile) {
+			// transform: scale(0.6);
+			margin-top: 2%;
+			margin-bottom: 1%;
+		}
+	}
+
+	h1 {
+		@media (max-width: $desktop) {
+			margin-top: 1rem;
+			margin-bottom: 1.5rem;
+			font-size: 20px;
+		}
+		@media (max-width: $tablet) {
+			margin-top: 1rem;
+			margin-bottom: 1.5rem;
+			font-size: 18px;
+		}
+		@media (max-width: $mobile) {
+			margin-top: 0.7rem;
+			margin-bottom: 1.5rem;
+			font-size: 16px;
+		}
+	}
+
+	.logForm {
+		@media (max-width: $desktop) {
+			width: 55%;
+		}
+		@media (max-width: $tablet) {
+			width: 65%;
+		}
+		@media (max-width: $mobile) {
+			width: 85%;
+		}
+
+		input {
+			@media (max-width: $tablet) {
+				font-size: 15px;
+			}
+			@media (max-width: $mobile) {
+				font-size: 14px;
+			}
+		}
+
+		p {
+			@media (max-width: $tablet) {
+				font-size: 12px;
+			}
+			@media (max-width: $mobile) {
+				font-size: 10px;
+			}
+		}
+
+		h3 {
+			@media (max-width: $tablet) {
+				font-size: 16px;
+			}
+			@media (max-width: $mobile) {
+				font-size: 14px;
+			}
+		}
+	}
+}

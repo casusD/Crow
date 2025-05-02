@@ -1,0 +1,19 @@
+.navbar {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+
+	padding-top: 5px;
+
+	background-color: var(--background-color);
+	box-shadow: 0 0 5px 1px var(--box-shadow-color);
+
+	.profile {
+		img {
+			width: 30px;
+			height: 30px;
+		}
+	}
+}
